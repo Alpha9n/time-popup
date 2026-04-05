@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時限ポップアップ - 設定</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <h1>時限ポップアップ 設定</h1>
+
+    <section class="section">
+      <h2>時限の設定</h2>
+      <p class="description">各時限の開始・終了時間を設定してください。</p>
+      <div id="periods-container"></div>
+      <button id="add-period" class="btn btn--secondary">+ 時限を追加</button>
+    </section>
+
+    <section class="section">
+      <h2>対象サイト</h2>
+      <p class="description">拡張機能を有効にするサイトのURLパターンを指定してください。空の場合はすべてのサイトで有効になります。</p>
+      <div id="urls-container"></div>
+      <button id="add-url" class="btn btn--secondary">+ URLパターンを追加</button>
+    </section>
+
+    <div class="actions">
+      <button id="save" class="btn btn--primary">保存</button>
+      <button id="reset" class="btn btn--danger">初期値に戻す</button>
+      <span id="status" class="status"></span>
+    </div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

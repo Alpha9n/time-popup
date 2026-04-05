@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時限ポップアップ デバッグ用サイト</title>
+  <style>
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.8;
+      color: #333;
+    }
+    h1 { border-bottom: 2px solid #4a90d9; padding-bottom: 8px; }
+    h2 { color: #4a90d9; margin-top: 32px; }
+    table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+    th { background: #f0f4f8; }
+    .notice { background: #fff3cd; border: 1px solid #ffc107; padding: 12px; border-radius: 4px; margin: 16px 0; }
+    .section { margin: 24px 0; }
+  </style>
+</head>
+<body>
+  <h1>○○大学 2026年度 前期時間割</h1>
+
+  <h2>半角数字パターン</h2>
+  <div class="section">
+    <p>1限の「情報基礎」は必修です。</p>
+    <p>2限目に「線形代数」があります。</p>
+    <p>本日の3限は休講となりました。</p>
+    <p>4限目と5限目は連続して実験を行います。</p>
+    <p>6限は選択科目です。</p>
+  </div>
+
+  <h2>全角数字パターン</h2>
+  <div class="section">
+    <p>１限は「英語コミュニケーション」です。</p>
+    <p>２限目の教室がB棟301に変更になりました。</p>
+    <p>３限目から出席する学生はロビーに集合してください。</p>
+  </div>
+
+  <h2>漢数字パターン</h2>
+  <div class="section">
+    <p>一限は朝が早いので遅刻に注意してください。</p>
+    <p>二限目のレポート提出期限は来週金曜日です。</p>
+    <p>三限の授業は来週から開始です。</p>
+  </div>
+
+  <h2>時間割表</h2>
+  <table>
+    <thead>
+      <tr><th></th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1限</td><td>情報基礎</td><td>英語I</td><td>-</td><td>物理学</td><td>-</td></tr>
+      <tr><td>2限</td><td>線形代数</td><td>-</td><td>統計学</td><td>化学</td><td>微分積分</td></tr>
+      <tr><td>3限</td><td>-</td><td>プログラミング</td><td>-</td><td>-</td><td>データ構造</td></tr>
+      <tr><td>4限</td><td>物理実験</td><td>-</td><td>ゼミ</td><td>-</td><td>-</td></tr>
+      <tr><td>5限</td><td>物理実験</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+    </tbody>
+  </table>
+
+  <h2>お知らせ</h2>
+  <div class="section">
+    <div class="notice">
+      <strong>【重要】</strong>4月10日（木）の2限目〜3限目は全学停電のため休講です。4限以降は通常通りです。
+    </div>
+    <p>履修登録は1限開始前までに完了してください。</p>
+    <p>5限目終了後、サークル説明会を開催します（18:00〜）。</p>
+  </div>
+
+  <h2>混在パターン</h2>
+  <div class="section">
+    <p>1限目〜3限目は午前の授業、4限目〜6限目は午後の授業です。</p>
+    <p>１限と1限目は同じ時間帯を指します。</p>
+    <p>一限目の出席率が低下しています。</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時限ポップアップ</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+    <div class="header">
+      <h1>時限ポップアップ</h1>
+      <label class="toggle">
+        <input type="checkbox" id="toggle-enabled" checked />
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+
+    <div class="schedule" id="schedule"></div>
+
+    <div class="footer">
+      <a href="#" id="open-options">設定を開く</a>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
