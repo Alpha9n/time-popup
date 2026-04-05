@@ -29,10 +29,10 @@
 ### プログラマ
 - Chrome拡張機能の実装全般
 - `manifest.json` — Manifest V3設定
-- `content.js` / `content.css` — テキスト検出（TreeWalker）＆ツールチップ表示
-- `popup.html` / `popup.js` / `popup.css` — ポップアップ画面
-- `options.html` / `options.js` / `options.css` — 設定画面
-- `background.js` — サービスワーカー
+- `src/content/content-script.js` / `src/content/content-style.css` — テキスト検出（TreeWalker）＆ツールチップ表示
+- `src/popup/popup.html` / `src/popup/popup.js` / `src/popup/popup.css` — ポップアップ画面
+- `src/options/options.html` / `src/options/options.js` / `src/options/options.css` — 設定画面
+- `src/background/service-worker.js` — サービスワーカー
 - `icons/` — アイコン生成（Tech Leadが代理実行）
 
 ## 運用ルール

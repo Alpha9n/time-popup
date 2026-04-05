@@ -218,9 +218,8 @@ time-popup/
 │   ├── background/
 │   │   └── service-worker.js
 │   ├── content/
-│   │   ├── detector.js      # テキスト検出ロジック
-│   │   ├── tooltip.js       # ツールチップ表示
-│   │   └── tooltip.css      # ツールチップスタイル
+│   │   ├── content-script.js # テキスト検出とツールチップ制御
+│   │   └── content-style.css # ツールチップスタイル
 │   ├── popup/
 │   │   ├── popup.html
 │   │   ├── popup.js
