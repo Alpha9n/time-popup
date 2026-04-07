@@ -19,7 +19,7 @@
   };
 
   // Regex to match "n限" or "n限目" with half-width, full-width, or kanji digits
-  const PERIOD_REGEX = /([0-9０-９一二三四五六七八九十]+)\s*限(?:目)?/g;
+  const PERIOD_REGEX = /([0-9０-９一二三四五六七八九十]+)\s*時?限(?:目)?/g;
 
   let periods = DEFAULT_PERIODS;
   let enabledUrls = []; // empty = all URLs
